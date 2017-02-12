@@ -1,0 +1,368 @@
+/* Background pattern from Subtle Patterns */
+
+body  {
+	background-image: url(../images/old_moon/old_moon.png);
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	color: #777777; 
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+}
+
+h1 {
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	
+}
+
+
+/* Navigation bar CSS */
+
+.navbar {
+	width: 100%;
+	height: 80px;
+	background-color:  #ffffff;
+	border-bottom: 2px solid #bdbdbd;
+
+}
+
+.navbar #student-name {
+	color: white;
+	background-color: #4aaaa6;
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	margin-left: 120px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	width: 320px;
+	float: left;	
+
+}
+
+.navbar ul {
+		margin-right: 160px;
+
+}
+
+
+.navbar ul li {
+		list-style: none;		
+
+}
+
+
+.navbar ul li a {
+	text-decoration: none;
+	padding: 30px 20px 30px 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #808080;
+	float: right;
+	
+}
+
+.navbar ul li a{
+        position: relative;
+    }
+
+.navbar ul li a:after{
+        position: absolute;
+        right: -1px;
+        top: 30px;
+        bottom: 3px;
+        width: 3px;
+        background: #ffffff;
+        content: "|";
+    }
+
+.navbar ul li:first-child a:after{
+        display: none;
+    }
+
+.navbar ul li a:hover {
+	color: black;
+
+}
+
+.container {
+	position: relative;
+	clear: both;
+	overflow: auto;
+	min-height: 100%;
+    /* equal to footer height */
+    margin-bottom: -85px;
+    box-sizing: border-box;
+
+}
+
+.container:after {
+  content: "";
+  display: block;
+}
+
+#about-me {
+	width: 650px;
+	background-color: #ffffff;
+	border-style: solid;
+	border-width: 2px; 
+	border-color: #dbdbdb;
+	margin-top: 30px;
+	margin-left: 120px;
+	overflow: auto;
+
+}
+
+#about-me h1 {
+	
+	text-align: left;
+	margin-top: 20px;
+	margin-left: 25px;
+	padding-bottom: 20px;	
+		
+}
+
+#about-me h1:after {
+    content: "";
+    display: block;
+    background-color: #bdbdbd;
+    height: 2px;
+    margin-top: 20px;
+    width: 575px;
+   
+}
+
+#about-me img {
+	
+	margin-left: 25px;
+	padding-top: 10px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+	float: left;
+
+}
+
+#about-me p {
+	
+	margin-left: 25px;
+	margin-right: 25px;
+	padding-top: 10px;
+	padding-right: 25px;
+	padding-bottom: 5px;
+	font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+
+}
+
+#about-me p:last-child {
+    padding-bottom: 30px;
+}
+
+/* Styling for Contact form */
+
+#contact-form {
+	width: 650px;
+	background-color: #ffffff;
+	border-style: solid;
+	border-width: 2px; 
+	border-color: #dbdbdb;
+	margin-top: 30px;
+	margin-left: 120px;
+	overflow: auto;
+
+}
+
+#contact-form h1 {
+	text-align: left;
+	margin-top: 20px;
+	margin-left: 25px;
+	padding-bottom: 20px;	
+		
+}
+
+#contact-form h1:after {
+    content: "";
+    display: block;
+    background-color: #bdbdbd;
+    height: 2px;
+    margin-top: 20px;
+    width: 600px;
+   
+}
+
+#contact-form form {
+	margin-left: 25px;
+
+}
+
+#contact-form input {
+    width: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    outline: none;  
+    display: inline-block;
+    border: 1px solid #dbdbdb;
+    box-sizing: border-box;
+}
+
+#contact-form input:last-child {
+    height: 200px;
+   
+}
+
+#contact-form button {
+	background-color: #4aaaa5;
+    border: none;
+    color: white;
+ 	text-align: center;
+ 	display: inline-block;
+    margin-left: 25px;
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Styling for Portfolio page */
+
+
+
+#portfolio {
+	width: 650px;
+	background-color: #ffffff;
+	border-style: solid;
+	border-width: 2px; 
+	border-color: #dbdbdb;
+	margin-top: 30px;
+	margin-left: 120px;
+	overflow: auto;
+
+}
+
+#portfolio h1 {
+	
+	text-align: left;
+	margin-top: 20px;
+	margin-left: 25px;
+	padding-bottom: 20px;	
+		
+}
+
+#portfolio h1:after {
+    content: "";
+    display: block;
+    background-color: #bdbdbd;
+    height: 2px;
+    margin-top: 20px;
+    width: 575px;
+
+}
+
+#portfolio ul li {
+	list-style: none;	
+	margin: 20px;
+	height: 200px;
+	width: 250px;
+	float: left;
+	position: relative;
+}
+
+#portfolio ul li a img {
+	width: 100%;
+	height: 100%;
+}
+
+#portfolio ul li a .label{
+	position: absolute;
+	left: 0;
+	bottom: 10px;
+	width: 100%;
+	background-color: #4aaaa6;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	display: block;
+	color: white;
+	padding: 1em;
+	box-sizing: border-box;
+}
+
+/* Styling the Connect with Me box */
+
+#connect-with-me {
+	width: 240px;
+	height: 170px;
+	background-color: #ffffff;
+	border-style: solid;
+	border-width: 2px; 
+	border-color: #dbdbdb;
+	position: absolute; top: 30px; right: 16%;
+}
+
+
+#connect-with-me h1 {
+	font-size: 18px;
+	text-align: center;
+	margin-top: 20px;
+	padding-bottom: 25px;			
+}
+
+#connect-with-me h1:after {
+    content: "";
+    display: block;
+    background-color: #dbdbdb;
+    height: 2px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 200px;
+   
+}
+
+#connect-with-me img {
+	height: 50px;
+	width: 50px;
+	margin-left: 5px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	float: left;
+
+}
+
+#connect-with-me img:first-child {
+    padding-left: 20px;
+}
+
+/* Styling for Sticky Footer */
+
+.foot {
+	clear: both;
+	overflow: auto;
+	width: 100%;
+	height: 80px;
+	background-color: #666666;
+	border-top: 5px;
+	border-style: solid;
+	border-top-color: #4aaaa5
+
+}
+
+.foot h4 {
+	text-align: center;
+	font-size: 12px;
+	padding-top: 45px;
+	color: #D3D3D3;
+}
+
+.foot, .container:after {
+  height: 80px; 
+}
+
+
