@@ -385,6 +385,8 @@ footer .container:after {
 
 @media screen and (max-width: 830px) {
 
+/* Title navigation and sub-navigation */
+
 .navbar {height: 180px;}
 
 .titleNav {
@@ -405,6 +407,9 @@ footer .container:after {
   background-color:  #fff;
 }
 
+.subNav ul {
+	margin-right: 0;
+}
 
 .subNav ul li {
   float: none;
@@ -415,3 +420,114 @@ footer .container:after {
     color: #999;
     text-decoration: none;
 }
+
+/* Styling the Sidebar: Connect with Me */
+
+.main-container {
+	float: none;
+	margin: auto;
+	width: 100%;
+}
+
+.sidebar {
+	float: none;
+	margin: auto;
+	width: 100%;
+}
+
+#connect {
+ 
+  padding: 30px;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 2px solid #dbdbdb;
+}
+
+#connect h2 {
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  line-height: 22px;
+  border-bottom: 2px solid #eee;
+}
+
+#connect img {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin-top: 8px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#connect img:last-child {
+  margin-right: 0;
+}
+
+/* About Me header, photo and paragraph */
+
+#about-me {
+	width: 100%;
+	background-color: #ffffff;
+	border-style: solid;
+	border-width: 2px; 
+	border-color: #dbdbdb;
+	margin-top: 30px;
+	margin-left: 0px;
+	overflow: auto;
+
+}
+
+#about-me h1 {
+	
+	text-align: left;
+	margin-top: 20px;
+	padding-bottom: 20px;	
+		
+}
+
+#about-me h1:after {
+    content: "";
+    display: block;
+    background-color: #bdbdbd;
+    height: 2px;
+    margin-top: 20px;
+    align-items: center;
+    width: 95%;
+   
+}
+
+#about-me img {
+	
+	width: 100%;
+	margin-left: 20px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	float: none;
+
+}
+
+#about-me p {
+	
+	float: left;
+	margin-left: 20px;
+	margin-right: 10px;
+	padding-bottom: 5px;
+	font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+
+}
+
+#about-me p:last-child {
+    padding-bottom: 30px;
+}
+
+
+
+}
+
+
+
